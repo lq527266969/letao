@@ -1,0 +1,123 @@
+body {
+  background-color: #fff;
+  padding: .45rem 0;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+#header {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  text-align: center;
+  background-color: #006699;
+}
+#header .left {
+  width: .45rem;
+  height: .45rem;
+  line-height: .45rem;
+  color: #fff;
+}
+#header form input {
+  background-color: #fff;
+  text-align: left;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: .14rem;
+  height: .35rem;
+}
+#header .center {
+  flex: 1;
+  line-height: .45rem;
+  margin: 0;
+  font-weight: normal;
+  color: #fff;
+}
+#header .right {
+  height: .45rem;
+  width: .45rem;
+  line-height: .45rem;
+  color: #fff;
+}
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #006699;
+  height: .45rem;
+  z-index: 999;
+}
+#footer a {
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+#footer a i {
+  line-height: .14rem;
+  font-size: .14rem;
+}
+#footer a span {
+  display: block;
+  font-size: .14rem;
+  line-height: .14rem;
+}
+#main {
+  display: flex;
+  background-color: #ccc;
+}
+#main .left {
+  position: relative;
+  width: .8rem;
+  height: 100vh;
+}
+#main .left .mui-scroll {
+  min-height: 101%;
+}
+#main .left .mui-scroll ul li a {
+  display: block;
+  height: 0.45rem;
+  line-height: .45rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font-size: .14rem;
+}
+#main .left .mui-scroll ul li a.active {
+  color: #ccc;
+  background-color: #e92322;
+}
+#main .left .mui-scroll ul li.active a {
+  background-color: #ccc;
+}
+#main .right {
+  flex: 1;
+  position: relative;
+}
+#main .right .mui-scroll {
+  min-height: 101%;
+}
+#main .right .mui-scroll .mui-row {
+  padding: 0 .1rem;
+}
+#main .right .mui-scroll .mui-row a {
+  background-color: #fff;
+  display: block;
+  text-align: center;
+}
+#main .right .mui-scroll .mui-row a img {
+  width: 100%;
+}
+#main .right .mui-scroll .mui-row a p {
+  margin: 0;
+}

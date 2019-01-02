@@ -1,0 +1,114 @@
+body {
+  background-color: #fff;
+  padding: .45rem 0;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+#header {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  text-align: center;
+  background-color: #006699;
+}
+#header .left {
+  width: 45px;
+  height: 45px;
+  line-height: 0.45rem;
+}
+#header .center {
+  flex: 1;
+  line-height: .45rem;
+  margin: 0;
+  font-weight: normal;
+  color: #fff;
+}
+#header .right {
+  height: .45rem;
+  width: .45rem;
+  line-height: .45rem;
+  color: #fff;
+}
+.nav {
+  padding: .1rem;
+}
+.nav a {
+  display: block;
+}
+.nav a img {
+  width: 100%;
+}
+.banner {
+  padding: 0 .1rem;
+}
+.banner .banner-left a {
+  display: flex;
+}
+.banner .banner-left a img {
+  width: 50%;
+  height: 1.2rem;
+}
+.banner .banner-right a img {
+  width: 100%;
+  height: 2.4rem;
+}
+.brand {
+  padding: 0 .1rem;
+}
+.brand .title img {
+  width: 100%;
+}
+.brand .content a {
+  display: block;
+}
+.brand .content a img {
+  width: 100%;
+  vertical-align: middle;
+}
+.sport {
+  padding: 0 .1rem;
+}
+.sport .title img {
+  width: 100%;
+}
+.sport .content a {
+  display: block;
+}
+.sport .content a img {
+  width: 100%;
+}
+.women {
+  padding: 0 .1rem;
+}
+.women .title img {
+  width: 100%;
+}
+.women .content a {
+  display: block;
+}
+.women .content a img {
+  width: 100%;
+}
+.man {
+  padding: 0 .1rem;
+}
+.man .title img {
+  width: 100%;
+}
+.man .content a {
+  display: block;
+}
+.man .content a img {
+  width: 100%;
+}
